@@ -1,1 +1,2 @@
-# DL2020-FinalProject
+# From Sentiment Analysis to Emotion Recognition
+Students:
