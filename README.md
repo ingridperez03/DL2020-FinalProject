@@ -112,6 +112,7 @@ The following list summarises the best results obtained for each of the differen
 		- Epochs → 10
 		- Hidden Layer → 256
 		- Embeddign → 400
+		- Batch_size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -122,15 +123,13 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 0.935  | 60.5%  |
 	- Confusion Matrix: 
 		- Network 1:
-		
-		<p align="center">
-			<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png">
-		</p>
+			<p align="center">
+				<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png">
+			</p>
 		- Network 2:
-		
-		<p align="center">
-			<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png">
-		</p>
+			<p align="center">
+				<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png">
+			</p>
 		
 
 - Dataset 2: Sentiment Tweets
@@ -138,6 +137,7 @@ The following list summarises the best results obtained for each of the differen
 		- Epochs → 5
 		- Hidden Layer → 256
 		- Embeddign → 400
+		- Batch_size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -148,14 +148,13 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 0.599  | 96.1%  |
 	- Confusion Matrix: 
 		- Network 1:
-	<p align="center">
-		<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_ConfusionMatrix_Net1.png">
-	</p>
-		
+			<p align="center">
+				<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_ConfusionMatrix_Net1.png">
+			</p>
 		- Network 2:
-	<p align="center">
-		<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_ConfusionMatrix_Net2.png">
-	</p>
+			<p align="center">
+				<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_ConfusionMatrix_Net2.png">
+			</p>
 
 - Dataset 3: Emotion Dataset 
 
@@ -163,6 +162,7 @@ The following list summarises the best results obtained for each of the differen
 		- Epochs → 10
 		- Hidden Layer → 256
 		- Embeddign → 400
+		- Batch_size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -173,15 +173,13 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 1.097  | 60.6%  |	
 	- Confusion Matrix: 
 		- Network 1:
-	<p align="center">
-		<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net1.png">
-	</p>
-	
+			<p align="center">
+				<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net1.png">
+			</p>
 		- Network 2:
-		
-	<p align="center">
-		<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net2.png">
-	</p>
+			<p align="center">
+				<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net2.png">
+			</p>
 
 - Dataset 4: Emotion Tweets 
 
@@ -189,6 +187,7 @@ The following list summarises the best results obtained for each of the differen
 		- Epochs → 5
 		- Hidden Layer → 256
 		- Embeddign → 400
+		- Batch_size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -199,11 +198,10 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 1.194  | 84.8%  |
 	- Confusion Matrix: 
 		- Network 1:
-	<p align="center">
-		<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net1.png">
-	</p>
-		- Network 2:
-		
-	<p align="center">
-		<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png">
-	</p>
+			<p align="center">
+				<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net1.png">
+			</p>
+		- Network 2:	
+			<p align="center">
+				<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png">
+			</p>
