@@ -34,7 +34,9 @@ Four datasets can be found in such file:
 		- Negative → 0
 		- Neutral → 1
 		- Positive → 2
-	- Data Distribution: ![Image of Dataset1]()
+	- Data Distribution: 
+	
+		![Image of Dataset1](Results/SA_BadData/SA_BadData_Dist.png)
 	
 - Dataset 2: Sentiment Tweets 
 [[2]: (http://www.t4sa.it/)]
@@ -54,7 +56,9 @@ Four datasets can be found in such file:
 		- Fear → 1
 		- Joy → 2
 		- Anger → 3
-	- Data Distribution: ![Image of Dataset3]()
+	- Data Distribution: 
+	
+		![Image of Dataset3](Results/ER_BadData/ER_BadData_Dist.png)
 
 - Dataset 4: Emotion Tweets 
 [[4](https://github.com/omarsar/nlp_pytorch_tensorflow_notebooks)]
@@ -68,11 +72,98 @@ Four datasets can be found in such file:
 		- Fear → 4
 		- Surprise → 5
 	- Data Distribution: 
-	![Image of Dataset4]()
+	
+		![Image of Dataset4](Results/EmotionRecognition/ER_GoodData_Dist.png)
 	
 ## Architectures
 
 
 
 ## Results
+- Dataset 1: Sentiment Dataset 
 
+	- Parameters:
+		- Epochs → 10
+		- Hidden Layer → 256
+		- Embeddign → 400
+		- Optimiser → Standard Gradient Descent (momentum 0.9)
+		- Learning rate → 0.1
+	- Results:
+
+		|  Results  | Test Loss  | Accuracy |
+		|  :-------:  | :----------: | :-------------: |
+		| Network 1 |    0.933   | 60.7%  |
+		| Network 2  | 0.935  | 60.5%  |
+	- Confusion Matrix: 
+		- Network 1:
+		
+			![Image of ConfusionMatrixD1_Network1](Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png)
+		- Network 2:
+		
+			![Image of ConfusionMatrixD1_Network2](Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png)
+		
+
+- Dataset 2: Sentiment Tweets
+	- Parameters:
+		- Epochs → 5
+		- Hidden Layer → 256
+		- Embeddign → 400
+		- Optimiser → Standard Gradient Descent (momentum 0.9)
+		- Learning rate → 0.1
+	- Results:
+
+		|  Results  | Test Loss  | Accuracy |
+		|  :-------:  | :----------: | :-------------: |
+		| Network 1 |    0.596   | 95.4%  |
+		| Network 2  | 0.599  | 96.1%  |
+	- Confusion Matrix: 
+		- Network 1:
+		
+			![Image of ConfusionMatrixD2_Network1]()
+		- Network 2:
+		
+			![Image of ConfusionMatrixD2_Network2]()
+
+- Dataset 3: Emotion Dataset 
+
+	- Parameters:
+		- Epochs → 10
+		- Hidden Layer → 256
+		- Embeddign → 400
+		- Optimiser → Standard Gradient Descent (momentum 0.9)
+		- Learning rate → 0.1
+	- Results:
+
+		|  Results  | Test Loss  | Accuracy |
+		|  :-------:  | :----------: | :-------------: |
+		| Network 1 |    1.226   | 44.2%  |
+		| Network 2  | 1.097  | 60.6%  |	
+	- Confusion Matrix: 
+		- Network 1:
+		
+			![Image of ConfusionMatrixD3_Network1](Results/ER_BadData/ER_BadData_ConfusionMatrix_Net1.png)
+		- Network 2:
+		
+			![Image of ConfusionMatrixD3_Network2](Results/ER_BadData/ER_BadData_ConfusionMatrix_Net2.png)
+
+- Dataset 4: Emotion Tweets 
+
+	- Parameters:
+		- Epochs → 5
+		- Hidden Layer → 256
+		- Embeddign → 400
+		- Optimiser → Standard Gradient Descent (momentum 0.9)
+		- Learning rate → 0.1
+	- Results:
+
+		|  Results  | Test Loss  | Accuracy |
+		|  :-------:  | :----------: | :-------------: |
+		| Network 1 |    1.228   | 81.4%  |
+		| Network 2  | 1.194  | 84.8%  |
+	- Confusion Matrix: 
+		- Network 1:
+		
+			![Image of ConfusionMatrixD4_Network1](Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net1.png)
+		- Network 2:
+		
+			![Image of ConfusionMatrixD4_Network2](Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png)
