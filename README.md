@@ -19,13 +19,13 @@ Group: 1
 
 Sentiment analysis is the problem of analysing text data in order to identify and categorise opinions in order to determine whether the writer’s attitude towards a topic is positive, neutral and negative. Similar to Sentiment analysis, there is Emotional analysis which aims to detect and recognise feelings through the expressions of texts, such as anger, disgust, fear, happiness, sadness, and surprise.
 
-The aim is to create a recurrent neural network to solve the sentiment analysis problem using a dataset that contains tweets labelled as either positive, neutral, or negative. Once the model has been trained, the aim is to adapt the architecture of the recurrent neural network so that it performs accurately the task of emotion analysis on another dataset of tweets.
+The aim is to create a recurrent neural network to solve the sentiment analysis problem using a dataset that contains tweets labelled as either positive, neutral, or negative. Once the model has been trained, the aim is to adapt the architecture of the recurrent neural network so that it performs accurately the task of emotion analysis on another dataset of tweets. Then, in order to obtain the best possible accuracy the network and the hyper-parameters will be fine-tuned.
 
 ## Data
 
 The data can be obtained through the following link: https://drive.google.com/drive/folders/1VO0fUJd0Cm716MC8utI4Pvj72rYX0lgm?usp=sharing
 
-Four datasets can be found in such file:
+The four datasets that can be found in such file are the following ones:
 
 - Dataset 1: Sentiment Dataset 
 [[1](http://alt.qcri.org/semeval2017/task4/index.php?id=results)]
@@ -76,14 +76,24 @@ Four datasets can be found in such file:
 		![Image of Dataset4](Results/EmotionRecognition/ER_GoodData_Dist.png)
 	
 ## Architectures
-1. Network with three fully connected layers: 
-	
-	![Image of Network1]()
-2. Network with one fully connected layer
 
-	![Image of Network2]()
+In order to obtain the best possible accuracy, the following two networks were implemented. Both are based on a Long-Short Term Memory (LSTM) neural networks. Such architectures are capable of learning long-term dependencies in the input. 
+
+The two models implemented different in the number of fully connected layers that they have to get the output from the hidden unit. 
+
+1. Network with three fully connected layers: After embedding the input and going through two LSTM layers, the output will be obtained by applying three fully connected layers. The following figure shows the architecture: 
+	
+	![Image of Network1](DL2020-FinalProject/Architectures/Diagrams/Network_1.png)
+	
+2. Network with one fully connected layer: Similarly, as before, the input will be embedded and passed through two LSTM layers, but, instead, the output will only be obtained by using one fully connected layer. The architecture is depicted in the following image: 
+
+	![Image of Network2](DL2020-FinalProject/Architectures/Diagrams/Network_2.png)
+
+The already trained models can be found in the Architectures folder for each of the different datasets. In order to replicate the results that we have obtained, it is necessary to run the notebooks in Google Collaboratory. There are four different notebooks one for each dataset and, inside each notebook, there are three different sections, the first part pre-processes the data, the second part runs the first network architecture and the third part, the second network architecture. 
 
 ## Results
+
+The following list summarises the best results obtained for each of the different networks and datasets. 
 - Dataset 1: Sentiment Dataset 
 
 	- Parameters:
