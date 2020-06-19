@@ -28,7 +28,7 @@ The data can be obtained through the following link: https://drive.google.com/dr
 Four datasets can be found in such file:
 
 - Dataset 1: Sentiment Dataset 
-[[1]: (http://alt.qcri.org/semeval2017/task4/index.php?id=results)]
+[[1](http://alt.qcri.org/semeval2017/task4/index.php?id=results)]
 	- Size: 50,337 tweets
 	- Labels: 
 		- Negative → 0
@@ -39,7 +39,7 @@ Four datasets can be found in such file:
 		![Image of Dataset1](Results/SA_BadData/SA_BadData_Dist.png)
 	
 - Dataset 2: Sentiment Tweets 
-[[2]: (http://www.t4sa.it/)]
+[[2](http://www.t4sa.it/)]
 
 	- Size: 1,179,957 tweets
 	- Labels: 
@@ -49,7 +49,7 @@ Four datasets can be found in such file:
 	- Data Distribution: ![Image of Dataset2]()
 
 - Dataset 3: Emotion Dataset 
-[[3]: (https://competitions.codalab.org/competitions/17751#learn_the_details-datasets)]
+[[3](https://competitions.codalab.org/competitions/17751#learn_the_details-datasets)]
 	- Size: 7,102 tweets
 	- Labels: 
 		- Sadness → 0
