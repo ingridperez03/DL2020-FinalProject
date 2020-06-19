@@ -176,7 +176,9 @@ The following list summarises the best results obtained for each of the differen
 	<p align="center">
 		<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net1.png">
 	</p>
+	
 		- Network 2:
+		
 	<p align="center">
 		<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net2.png">
 	</p>
@@ -201,6 +203,7 @@ The following list summarises the best results obtained for each of the differen
 		<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net1.png">
 	</p>
 		- Network 2:
+		
 	<p align="center">
 		<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png">
 	</p>
