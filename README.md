@@ -76,8 +76,12 @@ Four datasets can be found in such file:
 		![Image of Dataset4](Results/EmotionRecognition/ER_GoodData_Dist.png)
 	
 ## Architectures
+1. Network with three fully connected layers: 
+	
+	![Image of Network1]()
+2. Network with one fully connected layer
 
-
+	![Image of Network2]()
 
 ## Results
 - Dataset 1: Sentiment Dataset 
