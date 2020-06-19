@@ -82,6 +82,9 @@ In order to obtain the best possible accuracy, the following two networks were i
 The two models implemented different in the number of fully connected layers that they have to get the output from the hidden unit. 
 
 1. Network with three fully connected layers: After embedding the input and going through two LSTM layers, the output will be obtained by applying three fully connected layers. The following figure shows the architecture: 
+<p align="center">
+  <img width="512" height="283" src="Architectures/Diagrams/Network_1.png">
+</p>
 	
 	->![Image of Network1](Architectures/Diagrams/Network_1.png)<-
 	
