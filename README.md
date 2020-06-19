@@ -111,8 +111,8 @@ The following list summarises the best results obtained for each of the differen
 	- Parameters:
 		- Epochs → 10
 		- Hidden Layer → 256
-		- Embeddign → 400
-		- Batch_size → 128
+		- Embedding → 400
+		- Batch Size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -136,8 +136,8 @@ The following list summarises the best results obtained for each of the differen
 	- Parameters:
 		- Epochs → 5
 		- Hidden Layer → 256
-		- Embeddign → 400
-		- Batch_size → 128
+		- Embedding → 400
+		- Batch Size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -161,8 +161,8 @@ The following list summarises the best results obtained for each of the differen
 	- Parameters:
 		- Epochs → 10
 		- Hidden Layer → 256
-		- Embeddign → 400
-		- Batch_size → 128
+		- Embedding → 400
+		- Batch Size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -186,8 +186,8 @@ The following list summarises the best results obtained for each of the differen
 	- Parameters:
 		- Epochs → 5
 		- Hidden Layer → 256
-		- Embeddign → 400
-		- Batch_size → 128
+		- Embedding → 400
+		- Batch Size → 128
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
