@@ -35,9 +35,9 @@ The four datasets that can be found in such file are the following ones:
 		- Neutral → 1
 		- Positive → 2
 	- Data Distribution: 
-	<p align="center">
-  		<img width="432" height="288" src="Results/SA_BadData/SA_BadData_Dist.png">
-	</p>
+<p align="center">
+	<img width="432" height="288" src="Results/SA_BadData/SA_BadData_Dist.png">
+</p>
 	
 - Dataset 2: Sentiment Tweets 
 [[2](http://www.t4sa.it/)]
@@ -47,7 +47,11 @@ The four datasets that can be found in such file are the following ones:
 		- Negative → 0
 		- Neutral → 1
 		- Positive → 2
-	- Data Distribution: ![Image of Dataset2]()
+	- Data Distribution:
+<p align="center">
+	<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_Dist.png">
+</p>
+
 
 - Dataset 3: Emotion Dataset 
 [[3](https://competitions.codalab.org/competitions/17751#learn_the_details-datasets)]
@@ -58,9 +62,9 @@ The four datasets that can be found in such file are the following ones:
 		- Joy → 2
 		- Anger → 3
 	- Data Distribution: 
-	<p align="center">
-  		<img width="512" height="283" src="Results/ER_BadData/ER_BadData_Dist.png">
-	</p>
+<p align="center">
+	<img width="432" height="288" src="Results/ER_BadData/ER_BadData_Dist.png">
+</p>
 
 - Dataset 4: Emotion Tweets 
 [[4](https://github.com/omarsar/nlp_pytorch_tensorflow_notebooks)]
@@ -74,8 +78,10 @@ The four datasets that can be found in such file are the following ones:
 		- Fear → 4
 		- Surprise → 5
 	- Data Distribution: 
+<p align="center">
+	<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_Dist.png">
+</p>
 	
-		![Image of Dataset4](Results/EmotionRecognition/ER_GoodData_Dist.png)
 	
 ## Architectures
 
@@ -84,11 +90,13 @@ In order to obtain the best possible accuracy, the following two networks were i
 The two models implemented different in the number of fully connected layers that they have to get the output from the hidden unit. 
 
 1. Network with three fully connected layers: After embedding the input and going through two LSTM layers, the output will be obtained by applying three fully connected layers. The following figure shows the architecture: 
+
 <p align="center">
   <img width="512" height="283" src="Architectures/Diagrams/Network_1.png">
 </p>
 		
 2. Network with one fully connected layer: Similarly, as before, the input will be embedded and passed through two LSTM layers, but, instead, the output will only be obtained by using one fully connected layer. The architecture is depicted in the following image: 
+
 <p align="center">
   <img width="237" height="283" src="Architectures/Diagrams/Network_2.png">
 </p>
@@ -140,11 +148,14 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 0.599  | 96.1%  |
 	- Confusion Matrix: 
 		- Network 1:
+	<p align="center">
+		<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_ConfusionMatrix_Net1.png">
+	</p>
 		
-			![Image of ConfusionMatrixD2_Network1]()
 		- Network 2:
-		
-			![Image of ConfusionMatrixD2_Network2]()
+	<p align="center">
+		<img width="432" height="288" src="Results/SentimentAnalisys/SA_GoodData_ConfusionMatrix_Net2.png">
+	</p>
 
 - Dataset 3: Emotion Dataset 
 
@@ -162,11 +173,13 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 1.097  | 60.6%  |	
 	- Confusion Matrix: 
 		- Network 1:
-		
-			![Image of ConfusionMatrixD3_Network1](Results/ER_BadData/ER_BadData_ConfusionMatrix_Net1.png)
+	<p align="center">
+		<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net1.png">
+	</p>
 		- Network 2:
-		
-			![Image of ConfusionMatrixD3_Network2](Results/ER_BadData/ER_BadData_ConfusionMatrix_Net2.png)
+	<p align="center">
+		<img width="432" height="288" src="Results/ER_BadData/ER_BadData_ConfusionMatrix_Net2.png">
+	</p>
 
 - Dataset 4: Emotion Tweets 
 
@@ -184,8 +197,10 @@ The following list summarises the best results obtained for each of the differen
 		| Network 2  | 1.194  | 84.8%  |
 	- Confusion Matrix: 
 		- Network 1:
-		
-			![Image of ConfusionMatrixD4_Network1](Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net1.png)
+	<p align="center">
+		<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net1.png">
+	</p>
 		- Network 2:
-		
-			![Image of ConfusionMatrixD4_Network2](Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png)
+	<p align="center">
+		<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png">
+	</p>
