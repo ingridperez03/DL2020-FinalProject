@@ -83,11 +83,11 @@ The two models implemented different in the number of fully connected layers tha
 
 1. Network with three fully connected layers: After embedding the input and going through two LSTM layers, the output will be obtained by applying three fully connected layers. The following figure shows the architecture: 
 	
-		![Image of Network1](Architectures/Diagrams/Network_1.png)
+	![Image of Network1](Architectures/Diagrams/Network_1.png)
 	
 2. Network with one fully connected layer: Similarly, as before, the input will be embedded and passed through two LSTM layers, but, instead, the output will only be obtained by using one fully connected layer. The architecture is depicted in the following image: 
 
-		![Image of Network2](Architectures/Diagrams/Network_2.png)
+	![Image of Network2](Architectures/Diagrams/Network_2.png)
 
 The already trained models can be found in the Architectures folder for each of the different datasets. In order to replicate the results that we have obtained, it is necessary to run the notebooks in Google Collaboratory. There are four different notebooks one for each dataset and, inside each notebook, there are three different sections, the first part pre-processes the data, the second part runs the first network architecture and the third part, the second network architecture. 
 
