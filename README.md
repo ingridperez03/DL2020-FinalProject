@@ -35,8 +35,9 @@ The four datasets that can be found in such file are the following ones:
 		- Neutral → 1
 		- Positive → 2
 	- Data Distribution: 
-	
-		![Image of Dataset1](Results/SA_BadData/SA_BadData_Dist.png)
+	<p align="center">
+  		<img width="432" height="288" src="Results/SA_BadData/SA_BadData_Dist.png">
+	</p>
 	
 - Dataset 2: Sentiment Tweets 
 [[2](http://www.t4sa.it/)]
@@ -57,8 +58,9 @@ The four datasets that can be found in such file are the following ones:
 		- Joy → 2
 		- Anger → 3
 	- Data Distribution: 
-	
-		![Image of Dataset3](Results/ER_BadData/ER_BadData_Dist.png)
+	<p align="center">
+  		<img width="512" height="283" src="Results/ER_BadData/ER_BadData_Dist.png">
+	</p>
 
 - Dataset 4: Emotion Tweets 
 [[4](https://github.com/omarsar/nlp_pytorch_tensorflow_notebooks)]
@@ -85,8 +87,7 @@ The two models implemented different in the number of fully connected layers tha
 <p align="center">
   <img width="512" height="283" src="Architectures/Diagrams/Network_1.png">
 </p>
-	
-	
+		
 2. Network with one fully connected layer: Similarly, as before, the input will be embedded and passed through two LSTM layers, but, instead, the output will only be obtained by using one fully connected layer. The architecture is depicted in the following image: 
 <p align="center">
   <img width="237" height="283" src="Architectures/Diagrams/Network_2.png">
@@ -114,10 +115,14 @@ The following list summarises the best results obtained for each of the differen
 	- Confusion Matrix: 
 		- Network 1:
 		
-			![Image of ConfusionMatrixD1_Network1](Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png)
+	<p align="center">
+		<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png">
+	</p>
 		- Network 2:
 		
-			![Image of ConfusionMatrixD1_Network2](Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png)
+	<p align="center">
+		<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png">
+	</p>
 		
 
 - Dataset 2: Sentiment Tweets
