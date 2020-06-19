@@ -123,14 +123,14 @@ The following list summarises the best results obtained for each of the differen
 	- Confusion Matrix: 
 		- Network 1:
 		
-	<p align="center">
-		<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png">
-	</p>
+		<p align="center">
+			<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net1.png">
+		</p>
 		- Network 2:
 		
-	<p align="center">
-		<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png">
-	</p>
+		<p align="center">
+			<img width="432" height="288" src="Results/SA_BadData/SA_BadData_ConfusionMatrix_Net2.png">
+		</p>
 		
 
 - Dataset 2: Sentiment Tweets
