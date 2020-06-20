@@ -85,7 +85,9 @@ The four datasets that can be found in such file are the following ones:
 ## Data pre-processing 
 In this part we have performed some changes in the tweets so as to remove unecessary information. The steps followed are shown in the next diagram:
 
-
+<p align="center">
+	<img width="951" height="289" src="Data/Data_preprocessing.jpg">
+</p>
 
 Besides, we have converted the labels form words to numbers so that it matches the output of the LSTM.
 
