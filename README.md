@@ -82,7 +82,9 @@ The four datasets that can be found in such file are the following ones:
 	<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_Dist.png">
 </p>
 	
-	
+## Data Pre-processing 
+ 
+
 ## Architectures
 
 In order to obtain the best possible accuracy, the following two networks were implemented. Both are based on a Long-Short Term Memory (LSTM) neural networks. Such architectures are capable of learning long-term dependencies in the input. 
