@@ -163,8 +163,8 @@ The following list summarises the best results obtained for each of the differen
 
 		|  Results  | Test Loss  | Accuracy |
 		|  :-------:  | :----------: | :-------------: |
-		| Network 1 |    0.596   | 95.4%  |
-		| Network 2  | 0.599  | 96.1%  |
+		| Network 1 |    0.596 (0.597)  | 95.4% (95.3%) |
+		| Network 2  | 0.599  (0.589) | 96.1%  (96.1%)|
 	- Confusion Matrix: 
 		- Network 1:
 			<p align="center">
