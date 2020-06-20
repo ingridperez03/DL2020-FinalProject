@@ -163,8 +163,8 @@ The following list summarises the best results obtained for each of the differen
 
 		|  Results  | Test Loss  | Accuracy |
 		|  :-------:  | :----------: | :-------------: |
-		| Network 1 |    0.596 (0.597)  | 95.4% (95.3%) |
-		| Network 2  | 0.599  (0.589) | 96.1%  (96.1%)|
+		| Network 1  | 0.597 | 95.3% |
+		| Network 2  | 0.589 | 96.1% |
 	- Confusion Matrix: 
 		- Network 1:
 			<p align="center">
@@ -187,10 +187,10 @@ The following list summarises the best results obtained for each of the differen
 		- Learning rate → 0.1
 	- Results:
 
-		|  Results  | Test Loss  | Accuracy |
-		|  :-------:  | :----------: | :-------------: |
-		| Network 1 |    1.226 (1.378)  | 44.2% (27.7%)  |
-		| Network 2  | 1.097 (1.053) | 60.6% (61.0%) |	
+		|  Results   | Test Loss  | Accuracy |
+		|  :-------: | :----------: | :-------------: |
+		| Network 1  | 1.378 | 27.7%  |
+		| Network 2  | 1.053 | 61.0%  |	
 	- Confusion Matrix: 
 		- Network 1:
 			<p align="center">
@@ -214,9 +214,9 @@ The following list summarises the best results obtained for each of the differen
 	- Results:
 
 		|  Results  | Test Loss  | Accuracy |
-		|  :-------:  | :----------: | :-------------: |
-		| Network 1 |    1.228 (1.151)   | 81.4% (89.1%)  |
-		| Network 2  | 1.194 (1.115)  | 84.8%  (92.7%)|
+		|  :-------: | :----------: | :-------------: |
+		| Network 1  | 1.151  | 89.1% |
+		| Network 2  | 1.115  | 92.7% |
 	- Confusion Matrix: 
 		- Network 1:
 			<p align="center">
