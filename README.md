@@ -29,6 +29,7 @@ The four datasets that can be found in such file are the following ones:
 
 - Dataset 1: Sentiment Dataset 
 [[1](http://alt.qcri.org/semeval2017/task4/index.php?id=results)]
+
 	- Size: 50,337 tweets
 	- Labels: 
 		- Negative → 0
@@ -55,6 +56,7 @@ The four datasets that can be found in such file are the following ones:
 
 - Dataset 3: Emotion Dataset 
 [[3](https://competitions.codalab.org/competitions/17751#learn_the_details-datasets)]
+
 	- Size: 7,102 tweets
 	- Labels: 
 		- Sadness → 0
