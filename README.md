@@ -115,10 +115,10 @@ In order to replicate the results that we have obtained, it is necessary to run 
 
 To run the notebooks, it is necessary to have the following folder structure in the drive:
 
-- DeepLearning_2020 -> Final_Project
+- DeepLearning_2020 → Final_Project
 
-	- Data -> Store the 4 different datasets
-	- Results -> Store the 8 different pre-trained models
+	- Data → Store the 4 different datasets
+	- Results → Store the 8 different pre-trained models
 
 ## Results
 
