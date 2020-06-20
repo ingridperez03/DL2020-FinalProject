@@ -82,8 +82,10 @@ The four datasets that can be found in such file are the following ones:
 	<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_Dist.png">
 </p>
 	
-## Data Pre-processing 
- 
+## Data pre-processing 
+In this part we have performed some changes in the tweets so as to remove unecessary information. The steps followed are shown in the next diagram:
+
+Besides, we have converted the labels form words to numbers so that it matches the output of the LSTM.
 
 ## Architectures
 
