@@ -107,7 +107,9 @@ The two models implemented different in the number of fully connected layers tha
   <img width="237" height="283" src="Architectures/Diagrams/Network_2.png">
 </p>
 
-The already trained models can be found in the Architectures folder for each of the different datasets. In order to replicate the results that we have obtained, it is necessary to run the notebooks in Google Collaboratory. There are four different notebooks one for each dataset and, inside each notebook, there are three different sections, the first part pre-processes the data, the second part runs the first network architecture and the third part, the second network architecture. In order to reproduce the results obtained, it is possible to run the notebooks skipping the training part and loading the already trained models from the .cpkt files. 
+The pre-trained models can be downloaded from the following link: https://drive.google.com/drive/folders/1XMNhAcZ5D7zRp-ivevBlMtFDEdYyYPWH?usp=sharing
+
+In order to replicate the results that we have obtained, it is necessary to run the notebooks in Google Collaboratory. There are four different notebooks one for each dataset and, inside each notebook, there are three different sections, the first part pre-processes the data, the second part runs the first network architecture and the third part, the second network architecture. In order to reproduce the results obtained, it is possible to run the notebooks skipping the training part and loading the already trained models from the .cpkt files. 
 
 To run the notebooks, it is necessary to have the following folder structure in the drive:
 
