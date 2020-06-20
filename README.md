@@ -17,9 +17,9 @@ Group: 1
 
 ## Problem Description 
 
-Sentiment analysis is the problem of analysing text data in order to identify and categorise opinions in order to determine whether the writer’s attitude towards a topic is positive, neutral and negative. Similar to Sentiment analysis, there is Emotional analysis which aims to detect and recognise feelings through the expressions of texts, such as anger, disgust, fear, happiness, sadness, and surprise.
+Sentiment analysis is the problem of analysing text data in order to identify and categorise opinions in order to determine whether the writer’s attitude towards a topic is positive, neutral and negative. Similar to Sentiment analysis, there is Emotional recognition which aims to detect and recognise feelings through the expressions of texts, such as anger, disgust, fear, happiness, sadness, and surprise.
 
-The aim is to create a recurrent neural network to solve the sentiment analysis problem using a dataset that contains tweets labelled as either positive, neutral, or negative. Once the model has been trained, the aim is to adapt the architecture of the recurrent neural network so that it performs accurately the task of emotion analysis on another dataset of tweets. Then, in order to obtain the best possible accuracy the network and the hyper-parameters will be fine-tuned.
+The aim is to create a recurrent neural network to solve the sentiment analysis problem using a dataset that contains tweets labelled as either positive, neutral, or negative. Once the model has been trained, the aim is to adapt the architecture of the recurrent neural network so that it performs accurately the task of emotion recognition on another dataset of tweets. Then, in order to obtain the best possible accuracy the network and the hyper-parameters will be fine-tuned.
 
 ## Data
 
@@ -85,6 +85,8 @@ The four datasets that can be found in such file are the following ones:
 ## Data pre-processing 
 In this part we have performed some changes in the tweets so as to remove unecessary information. The steps followed are shown in the next diagram:
 
+
+
 Besides, we have converted the labels form words to numbers so that it matches the output of the LSTM.
 
 ## Architectures
@@ -105,7 +107,13 @@ The two models implemented different in the number of fully connected layers tha
   <img width="237" height="283" src="Architectures/Diagrams/Network_2.png">
 </p>
 
-The already trained models can be found in the Architectures folder for each of the different datasets. In order to replicate the results that we have obtained, it is necessary to run the notebooks in Google Collaboratory. There are four different notebooks one for each dataset and, inside each notebook, there are three different sections, the first part pre-processes the data, the second part runs the first network architecture and the third part, the second network architecture. 
+The already trained models can be found in the Architectures folder for each of the different datasets. In order to replicate the results that we have obtained, it is necessary to run the notebooks in Google Collaboratory. There are four different notebooks one for each dataset and, inside each notebook, there are three different sections, the first part pre-processes the data, the second part runs the first network architecture and the third part, the second network architecture. In order to reproduce the results obtained, it is possible to run the notebooks skipping the training part and loading the already trained models from the .cpkt files. 
+
+To run the notebooks, it is necessary to have the following folder structure in the drive:
+
+- DeepLearning_2020 -> Final_Project
+	- Data -> Store the 4 different datasets
+	- Results -> Store the 8 different pre-trained models
 
 ## Results
 
@@ -209,3 +217,14 @@ The following list summarises the best results obtained for each of the differen
 			<p align="center">
 				<img width="432" height="288" src="Results/EmotionRecognition/ER_GoodData_ConfusionMatrix_Net2.png">
 			</p>
+
+
+## References
+
+The references are:
+1. Sara Rosenthal, Noura Farra, &; Preslav Nakov (2017). SemEval-2017 Task 4: Sentiment Analysis in Twitter. In Proceedings of the 11th International Workshop on Semantic Evaluation. Association for Computational Linguistics. Source: http://alt.qcri.org/semeval2017/task4/index.php?id=results 
+2. Vadicamo, L., Carrara, F., Cimino, A., Cresci, S., Dell'Orletta, F., Falchi, F., & Tesconi, M. (2017). Cross-media learning for image sentiment analysis in the wild. In Proceedings of the IEEE International Conference on Computer Vision Workshops (pp. 308-317).
+3. Mohammad, S., Bravo-Marquez, F., Salameh, M., &; Kiritchenko, S. (2018). SemEval-2018 Task 1: Affect in Tweets. In Proceedings of International Workshop on Semantic Evaluation (SemEval-2018). Source: https://competitions.codalab.org/competitions/17751#learn_the_details-datasets 
+4. Saravia, E. (Unknown) Deep Learning Based NLP. Source: https://github.com/omarsar/nlp_pytorch_tensorflow_notebooks (Accessed on 11th June 2020)
+5. Savani, B. (2019). “Tutorial on Sentiment Analysis using Pytorch for beginners”. Medium. Source: https://medium.com/@bhadreshpsavani/tutorial-on-sentimental-analysis-using-pytorch-b1431306a2d7
+6. NS, A. (2020). "Multiclass Text Classification using LSTM in Pytorch". Medium. Source: https://towardsdatascience.com/multiclass-text-classification-using-lstm-in-pytorch-eac56baed8df
