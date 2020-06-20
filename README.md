@@ -130,6 +130,7 @@ The following list summarises the best results obtained for each of the differen
 		- Hidden Layer → 256
 		- Embedding → 400
 		- Batch Size → 128
+		- Gradient clipping → 5
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -155,6 +156,7 @@ The following list summarises the best results obtained for each of the differen
 		- Hidden Layer → 256
 		- Embedding → 400
 		- Batch Size → 128
+		- Gradient clipping → 5
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -180,6 +182,7 @@ The following list summarises the best results obtained for each of the differen
 		- Hidden Layer → 256
 		- Embedding → 400
 		- Batch Size → 128
+		- Gradient clipping → 5
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -205,6 +208,7 @@ The following list summarises the best results obtained for each of the differen
 		- Hidden Layer → 256
 		- Embedding → 400
 		- Batch Size → 128
+		- Gradient clipping → 2
 		- Optimiser → Standard Gradient Descent (momentum 0.9)
 		- Learning rate → 0.1
 	- Results:
@@ -212,7 +216,7 @@ The following list summarises the best results obtained for each of the differen
 		|  Results  | Test Loss  | Accuracy |
 		|  :-------:  | :----------: | :-------------: |
 		| Network 1 |    1.228 (1.151)   | 81.4% (89.1%)  |
-		| Network 2  | 1.194  | 84.8%  |
+		| Network 2  | 1.194 (1.115)  | 84.8%  (92.7%)|
 	- Confusion Matrix: 
 		- Network 1:
 			<p align="center">
